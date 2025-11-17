@@ -1,0 +1,10 @@
+#docker file
+
+FROM python:3.9
+
+WORKDIR /mat
+
+
+COPY mat.py .
+
+CMD ["python", "mat.py"]
