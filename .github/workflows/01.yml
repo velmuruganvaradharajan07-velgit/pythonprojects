@@ -17,4 +17,4 @@ jobs:
             python-version: '3.13' 
   
       - name: Run Python script
-        run: python Self_Preparation/voice_Code/voicereg.py
+        run: python Self_Preparation/Pandasssss/5.py
