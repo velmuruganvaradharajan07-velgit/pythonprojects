@@ -24,9 +24,9 @@ jobs:
       - name: Send email
         uses: dawidd6/action-send-mail@v3
         with:
-          host: smtp.google.com
-        # Optional port (defaults to 465)
-          port: 465
+          server_address: smtp.google.com
+          # Optional port (defaults to 465)
+          port: 587
           account: ${v07e01l99@gmail.com}
           password: ${asdfghjkl@123}
           sender: vel
