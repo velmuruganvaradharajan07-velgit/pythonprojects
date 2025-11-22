@@ -27,6 +27,7 @@ jobs:
           server_address: smtp.google.com
           # Optional port (defaults to 465)
           port: 587
+          secure: true
           account: ${v07e01l99@gmail.com}
           password: ${asdfghjkl@123}
           sender: vel
@@ -34,6 +35,8 @@ jobs:
           to: v07e01l99@gmail.com
           subject: Job Trigger in git hub.
           body: your messages.
+          ignore_cert: true
+          convert_markdown: true
           # Optional content type (defaults to text/plain)
           contentType: text/plain
           # Optional attachment files (JSON type. require property 'path')
