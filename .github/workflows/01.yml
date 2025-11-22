@@ -30,8 +30,8 @@ jobs:
           account: ${v07e01l99@gmail.com}
           password: ${asdfghjkl@123}
           sender: vel
-          from: ${v07e01l99@gmail.com}
-          to: velmuruganvaradharajan07@gmail.com
+          from: ${vel}
+          to: v07e01l99@gmail.com
           subject: Job Trigger in git hub.
           body: your messages.
           # Optional content type (defaults to text/plain)
