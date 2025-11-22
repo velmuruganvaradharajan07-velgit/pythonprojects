@@ -17,5 +17,5 @@ jobs:
             python-version: '3.13' 
   
       - name: Run Python script
-        run: python voicereg.py
+        run: C:\Users\VV1205\OneDrive - Hitachi Energy\Desktop\Velmurugan\Learnings\Python_Projects\pythonprojects\Self_Preparation\voice_Code\voicereg.pypython voicereg.py
    
