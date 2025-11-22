@@ -1,0 +1,22 @@
+
+name : run python script 
+on: push 
+
+jobs:
+  printing python:
+  runs-on: ubuntu-latest
+
+  steps:
+  - name: clone-repo
+    uses: actions/checkout@v5
+
+  - name: setting up python
+  - uses: actions/checkout@v5
+  - uses: actions/setup-python@v6
+  with:
+    python-version: '3.13' 
+  
+  name: Run Python script
+
+  run: python voicereg.py
+   
