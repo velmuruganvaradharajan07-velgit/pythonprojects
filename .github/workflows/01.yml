@@ -28,7 +28,7 @@ jobs:
         # Optional port (defaults to 465)
           port: 465
           account: ${v07e01l99@gmail.com}
-          password: ${{Asdfghjkl@123}}
+          password: ${{asdfghjkl@123}}
           sender: vel
           from: ${v07e01l99@gmail.com}
           to: velmuruganvaradharajan07@gmail.com
